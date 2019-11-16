@@ -6,4 +6,4 @@ eureka:
 
 config:
   server:
-    student-key: Hello There, from Config Server
+    student-keyyy: Hello There, from Config Server
