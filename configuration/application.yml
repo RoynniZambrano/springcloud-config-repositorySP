@@ -1,0 +1,5 @@
+eureka:
+  client:
+    registry-fetch-inteval-seconds: 5
+    service-url:
+      defaultZone: http://localhost:8700/eureka/
