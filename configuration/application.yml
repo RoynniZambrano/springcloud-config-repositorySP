@@ -4,11 +4,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8700/eureka/
 
-      
-config:
-  server:
-    student-key: Hello There, from Config Server
-
 spring:
   data:
     cassandra:
@@ -17,3 +12,9 @@ spring:
       contact-points: localhost
       username: cassandra
       password: cassandra
+
+
+config:
+  server:
+    student-key: Hello There, from Config Server
+
